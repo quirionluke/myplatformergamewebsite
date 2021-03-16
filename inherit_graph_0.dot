@@ -1,0 +1,21 @@
+digraph "Graphical Class Hierarchy"
+{
+  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
+  node [fontname="Helvetica",fontsize="10",shape=record];
+  rankdir="LR";
+  Node0 [label="Component",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classComponent.html",tooltip="The component interface to be added to a gameobject. "];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="ColliderComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classColliderComponent.html",tooltip="A member of the component family that determines collision between two game objects. "];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="ControllerComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classControllerComponent.html",tooltip="This class handles everything the player gameobject should be doing. "];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="EnemyBehavior",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classEnemyBehavior.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="FinishLineBehavior",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classFinishLineBehavior.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="Sprite",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classSprite.html",tooltip="A small class to demonstrate loading sprites. "];
+  Node0 -> Node6 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node6 [label="TileMap",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTileMap.html",tooltip="This is a minimal implementation of a TileMap. "];
+  Node0 -> Node7 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="TransformComponent",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classTransformComponent.html"];
+}
